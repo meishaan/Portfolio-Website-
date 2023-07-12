@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #101820;
+}
+nav
+{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 2vh;
+    position: fixed;
+}
+
+nav a
+{
+    padding: 5vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #FEE715;
+    width: 30vh;
+}
+
+nav a:hover
+{
+    margin-right: 12vh;
+    transition-duration: 1s;
+}
+
+.extension
+{
+    display: none;
+}
+
+#link:hover .extension
+{
+    display: contents;
+    color: #FEE715;
+    transition-duration: 1s;
+}
+
+#main
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#left
+{
+    height: 100%;
+    width: 75%;
+    background-color: #FEE715;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text
+{
+    height: 30vh;
+    width: 56vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p
+{
+    margin-top: 2vh;
+    line-height: 3vh;
+    font-size: 3vh;
+}
+
+h1
+{
+    font-size: 7vh;
+}
+
+#platforms img
+{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 10px;    
+}
+
+#platforms
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 41vh;
+    width: 48vw;
+    top: 5vh;
+    position: relative;
+
+}
+
+.logo1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    width: 30vw;
+}
+
+.logo2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    width: 30vw;
+}
+
+.logo3
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    width: 30vw;
+}
+
+.logo1 h4
+{
+    display: none;
+    font-size: 3vh;
+    width: 25vw;
+    color: black;
+}
+
+
+.logo2 h4
+{
+    display: none;
+    font-size: 3vh;
+    width: 25vw;
+    color: black;
+}
+
+.logo3 h4
+{
+    display: none;
+    font-size: 3vh;
+    width: 25vw;
+    color: black;
+}
+
+a
+{
+    width: 25vw;
+}
+
+.logo1:hover
+{
+    margin-left: 3vh;
+    transition-duration: 1s;
+}
+
+.logo2:hover
+{
+    margin-left: 3vh;
+    transition-duration: 1s;
+}
+
+.logo3:hover
+{
+    margin-left: 3vh;
+    transition-duration: 1s;
+}
+
+.logo1:hover h4
+{
+    display: contents;
+}
+
+.logo2:hover h4
+{
+    display: contents;
+}
+
+.logo3:hover h4
+{
+    display: contents;
+}
+
+#right
+{
+    width: 23%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    line-height: 3vh;
+    margin-left: 2vw;
+    font-size: 2vh;
+    z-index: 2
+;
+}
+
+h3
+{
+   color: #fdf292;
+    ;
+}

@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #101820;
+}
+
+nav
+{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 2vh;
+    position: fixed;
+}
+
+nav a
+{
+    padding: 5vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #FEE715;
+    width: 30vh;
+}
+
+nav a:hover
+{
+    margin-right: 12vh;
+    transition-duration: 1s;
+}
+
+.extension
+{
+    display: none;
+}
+
+#link:hover .extension
+{
+    display: contents;
+    color: #FEE715;
+    transition-duration: 1s;
+}
+
+/* #extension:hover
+{
+    color: #FEE715;
+} */
+
+
+.one
+{
+  height: 100%;
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.head_text
+{
+    height: 10vh;
+    width: 80vw;
+    color: #FEE715;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20vh;
+    /* background-color: #FEE715; */
+}
+
+.head_text:hover
+{
+    height: 55%;
+    width: 90%;
+    font-size: 9vh;
+    transition-duration: 1s;
+    border-radius: 35vh;
+    position: absolute;
+    /* text-decoration: underline;
+    text-decoration-color: white; */
+}
+
+
+#two
+{
+    height: 100%;
+    width: 100%;
+    background-color: #101820;
+    margin-top: -1px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column ; */
+}
+
+
+#two h1
+{
+    color: black;
+    font-size: 3vh;
+}
+
+.piechart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    width: 400px;
+    margin-left: 5vh;
+    height: 400px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #FEE715 120deg, 
+        white 0);
+}
+.piechart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coder
+{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coder h2
+{
+    color:#FEE715 ;
+    font-size: 4vh;
+}
+
+h2:hover
+{
+    border-bottom: 2px wheat;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.coder ul
+{
+    color: aliceblue;
+    list-style: circle;
+    font-size: 3vh;
+    width: 10vh;
+    line-height: 5vh;
+}
+
+.coder ul li
+{
+    width: 100%;
+}
+
+.coder ul li:hover 
+{
+    color: rgb(173, 213, 248);
+    margin-left: 2vh;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.designer
+{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.designer h2
+{
+    color: #FEE715;
+    font-size: 4vh;
+    cursor: pointers;
+    line-height: 8vh;
+}
+
+.designer ul
+{
+    color: aliceblue;
+    list-style: circle;
+    font-size: 3vh;
+    width: 10vh;
+}
+
+.designer ul li
+{
+    width: 12vw;
+    line-height: 5vh;
+}
+
+.designer ul li:hover 
+{
+    color: rgb(173, 213, 248);
+    margin-left: 2vh;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+.three
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#aboutImage
+{
+    height: 100vh;
+    width: 50%;
+    align-items: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutImage img
+{
+    height: 60vh;
+    box-shadow: none;
+    /* box-shadow: -29px 20px 0px 0px #f2dc16; */
+}
+
+#aboutImage img:hover
+{
+
+    height: 70vh;
+    box-shadow: 0px 0px 32px 4px #f2dc16;
+    transition-duration: 0.3s;
+}
+
+#aboutContent
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#aboutContent h1
+{
+    color:#f2dc16;
+}
+
+.AMunderline
+{
+    height: 0.5vh;
+    width: 4vh;
+    background-color: #ffffff;
+}
+
+#aboutContent:hover .AMunderline
+{
+    width: 10vw;
+    transition-duration: 1s;
+}
+
+.aboutme_animation
+{
+    line-height: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-bottom: 4vh;
+    cursor: pointer;
+}
+
+#aboutContent p
+{
+    color: white;
+    line-height: 3vh;
+}
+.coder:hover h2
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition-duration: 1s;
+    text-decoration-skip-ink: 2px;
+}
+
+.designer:hover h2
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition-duration: 1s;
+    text-decoration-skip-ink: 2px;
+}
+
+@media screen and (max-width: 600px ) {
+
+    #aboutContent
+    {
+        width: 35%;
+    }
+
+    #aboutImage img 
+    {
+        height: 40vh;
+        width: 32vw;
+    }
+    
+    .three
+    {
+        height: 80vh;
+    }
+
+    .designer
+    {
+        width: 30vw;
+        height: 100vh;
+        margin-right: 2vw;
+    }
+    .coder
+    {
+        width: 30vw;
+        height: 100vh;
+        margin-left: 2vw;
+    }
+
+    .piechart
+    {
+        height: 30vh;
+        width: 30vw;
+        margin: 0;
+    }
+
+    .designer ul li {
+        width: 12vw;
+        line-height: 4vh;
+    }
+    .designer h2
+    {font-size: 4vh;}
+
+    .coder ul 
+    {
+        line-height: 4vh;
+        font-size: 3vh;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px )
+{
+
+#aboutContent {
+    width: 72%;
+    margin: 4vh;
+}
+
+.three
+{
+    flex-direction: column;
+    height: 100vh;
+}
+
+#aboutImage img 
+{
+    height: 33vh;
+    width: initial;
+}
+
+nav a
+{
+    width: 15vh
+}
+.piechart {
+    height: 20vh;
+    width: 30vw;
+}
+
+.designer
+{
+    margin-left: 4vw;
+}
+
+.coder ul {
+    line-height: 4vh;
+    font-size: 3vh;
+}
+
+.designer h2 {
+    font-size: 3vh;
+}
+
+.coder h2 {
+    font-size: 3vh;
+}
+
+#two
+{
+    margin-left: 2vw;
+    height: 95vh;
+}
+
+nav a {
+    width: 15vh;
+    position: absolute;
+    z-index: 3;
+}
+
+}
